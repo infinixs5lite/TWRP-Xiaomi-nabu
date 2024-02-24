@@ -76,7 +76,7 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 134217728
 BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := xiaomi_dynamic_partitions
 BOARD_XIAOMI_DYNAMIC_PARTITIONS_SIZE := 9122611200
-BOARD_XIAOMI_DYNAMIC_PARTITIONS_PARTITION_LIST := odm product system system_ext vendor #mi_ext
+BOARD_XIAOMI_DYNAMIC_PARTITIONS_PARTITION_LIST := odm product system system_ext vendor
 BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
 BOARD_SUPPRESS_SECURE_ERASE := true
 
@@ -102,6 +102,7 @@ AB_OTA_PARTITIONS += \
     boot \
     dtbo \
     odm \
+    mi_ext \
     product \
     system \
     system_ext \
